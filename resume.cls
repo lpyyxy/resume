@@ -2,6 +2,12 @@
 \ProvidesClass{resume}
     [resume template written by lpyyxy]
 
+
+\PassOptionsToPackage{no-math}{fontspec}
+\PassOptionsToPackage{SlantFont}{xeCJK}
+
+\RequirePackage{anyfontsize}
+
 \LoadClass{ctexart}
 
 \RequirePackage[
